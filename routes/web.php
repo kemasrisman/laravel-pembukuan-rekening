@@ -20,7 +20,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     // Nasabah
-    Route::get('/nasabah', [NasabahController::class, 'index'])->name('nasabah.index');
+    Route::get('/approval', [NasabahController::class, 'index'])->name('nasabah.list');
+    Route::get('/pembukaan-rekening', [NasabahController::class, 'create'])->name('nasabah.create');
     
 });
 

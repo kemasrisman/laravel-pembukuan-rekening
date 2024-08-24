@@ -32,7 +32,6 @@
 {{-- Push extra scripts --}}
 
 @push('js')
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap5.min.css" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
@@ -43,7 +42,7 @@
       var table = $('.data-table').DataTable({
           processing: true,
           serverSide: true,
-          ajax: "{{ route('nasabah.index') }}",
+          ajax: "{{ route('nasabah.list') }}",
           columns: [
               {data: 'id', name: 'id'},
               {data: 'name', name: 'name'},
