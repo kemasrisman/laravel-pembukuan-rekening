@@ -6,7 +6,7 @@ use App\Http\Controllers\WilayahController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('login');
 });
 
 Route::get('/beranda', function () {
@@ -16,20 +16,26 @@ Route::get('/beranda', function () {
 
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::name('profile.')->prefix('profile')->group(function () {
+        Route::get('/', [ProfileController::class, 'edit'])->name('edit');
+        Route::patch('/', [ProfileController::class, 'update'])->name('update');
+        Route::delete('/', [ProfileController::class, 'destroy'])->name('destroy');
+    });
 
     // Nasabah
-    Route::get('/approval', [NasabahController::class, 'index'])->name('nasabah.list');
-    Route::get('/pembukaan-rekening', [NasabahController::class, 'create'])->name('nasabah.create');
-    Route::post('/pembukaan-rekening', [NasabahController::class, 'store'])->name('nasabah.store');
-    Route::post('/approval', [NasabahController::class, 'approve'])->name('nasabah.approve');
+    Route::name('pembukaan-rekening.')->prefix('nasabah')->group(function () {
+        Route::get('/approval', [NasabahController::class, 'list'])->name('list');
+        Route::get('/', [NasabahController::class, 'create'])->name('create');
+        Route::post('/', [NasabahController::class, 'store'])->name('store');
+        Route::post('/approval', [NasabahController::class, 'approve'])->name('approve');
+    });
 
     // Wilayah
-    Route::get('/wilayah/get-kabupaten', [WilayahController::class, 'getKabupaten'])->name('wilayah.get-kabupaten');
-    Route::get('/wilayah/get-kecamatan', [WilayahController::class, 'getKecamatan'])->name('wilayah.get-kecamatan');
-    Route::get('/wilayah/get-kelurahan', [WilayahController::class, 'getKelurahan'])->name('wilayah.get-kelurahan');
+    Route::name('wilayah.')->prefix('wilayah')->group(function () {
+        Route::get('/get-kabupaten', [WilayahController::class, 'getKabupaten'])->name('get-kabupaten');
+        Route::get('/get-kecamatan', [WilayahController::class, 'getKecamatan'])->name('get-kecamatan');
+        Route::get('/get-kelurahan', [WilayahController::class, 'getKelurahan'])->name('get-kelurahan');
+    });
     
 });
 

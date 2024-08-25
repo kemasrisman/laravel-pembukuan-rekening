@@ -7,12 +7,13 @@ use App\Models\Nasabah;
 use App\Models\Pekerjaan;
 use App\Models\Provinsi;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Yajra\DataTables\Facades\DataTables;
 
 class NasabahController extends Controller
 {
-    public function index(Request $request)
+    public function list(Request $request)
     {
         if ($request->ajax()) {
             // nasabah yang id kc nya sama dengan id user
@@ -57,27 +58,38 @@ class NasabahController extends Controller
         if ($existing) {
             return back()->withErrors(['nama' => 'The name has already been taken.']);
         }
+        $transaction = DB::transaction(function () use ($request) {
+            $nasabah = Nasabah::create([
+                'nama' => $request->nama,
+                'tempat_lahir' => $request->tempat_lahir,
+                'tanggal_lahir' => $request->tanggal_lahir,
+                'jenis_kelamin' => $request->jenis_kelamin,
+                'provinsi' => $request->provinsi,
+                'kota' => $request->kota,
+                'kecamatan' => $request->kecamatan,
+                'kelurahan' => $request->kelurahan,
+                'nama_jalan' => $request->nama_jalan,
+                'rt' => $request->rt,
+                'rw' => $request->rw,
+                'id_user' => auth()->id(),
+                'id_kc' => auth()->user()->id_kc,
+                'id_pekerjaan' => $request->id_pekerjaan,
+                'approved_by' => null,
+            ]);
 
-        $nasabah = Nasabah::create([
-            'nama' => $request->nama,
-            // 'alamat' => $request->alamat,
-            'tempat_lahir' => $request->tempat_lahir,
-            'tanggal_lahir' => $request->tanggal_lahir,
-            'jenis_kelamin' => $request->jenis_kelamin,
-            'provinsi' => $request->provinsi,
-            'kota' => $request->kota,
-            'kecamatan' => $request->kecamatan,
-            'kelurahan' => $request->kelurahan,
-            'nama_jalan' => $request->nama_jalan,
-            'rt' => $request->rt,
-            'rw' => $request->rw,
-            'id_user' => auth()->id(),
-            'id_kc' => auth()->user()->id_kc,
-            'id_pekerjaan' => $request->id_pekerjaan,
-            'approved_by' => null,
-        ]);
+            $nasabah->rekening()->create([
+                'saldo' => $request->nominal_setor,
+                'status' => 'aktif',
+                'id_kantor_cabang' => auth()->user()->id_kc,
+                'id_user' => auth()->id(),
+                'id_nasabah' => $nasabah->id,
+                'no_rekening' => rand(1000000000, 9999999999),
+            ]);
 
-        if ($nasabah) {
+            return $nasabah;
+        });
+
+        if ($transaction) {
             return redirect()->route('nasabah.list')->with('success', 'Nasabah berhasil ditambahkan');
         } else {
             Log::error('Nasabah gagal ditambahkan');

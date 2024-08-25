@@ -45,4 +45,9 @@ class Nasabah extends Model
     {
         return $this->belongsTo(User::class, 'id_user');
     }
+
+    public function rekening()
+    {
+        return $this->hasOne(Rekening::class, 'id_nasabah');
+    }
 }
