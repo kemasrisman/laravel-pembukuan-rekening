@@ -328,13 +328,12 @@ return [
             'url' => 'pembukaan-rekening',
             'icon' => 'fas fa-fw fa-user',
             'can' => 'nasabah.create',
-            'can' => 'nasabah.approve',
         ],
         [
             'text' => 'Approval Pembukaan',
             'url' => 'approval',
             'icon' => 'fas fa-fw fa-lock',
-            'can' => 'nasabah.approve',
+            'can' => ['nasabah.approve', 'nasabah.create'],
         ],
         // [
         //     'text' => 'multilevel',

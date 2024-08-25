@@ -11,6 +11,7 @@
                 <tr>
                     <th>No</th>
                     <th>Name</th>
+                    <th>Tempat Lahir</th>
                     <th>Status</th>
                     @can('nasabah.approve')
                     <th width="100px">Action</th>
@@ -80,6 +81,7 @@
           columns: [
               {data: 'id', name: 'id'},
               {data: 'nama', name: 'nama'},
+              {data: 'tempat_lahir', name: 'tempat_lahir'},
               {data: 'status', name: 'status'},
               @can('nasabah.approve')
               {data: 'action', name: 'action', orderable: false, searchable: false},
