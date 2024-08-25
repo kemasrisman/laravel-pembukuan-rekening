@@ -327,13 +327,14 @@ return [
             'text' => 'Pembukaan Rekening',
             'url' => 'pembukaan-rekening',
             'icon' => 'fas fa-fw fa-user',
-            'can' => 'setujui nasabah'
+            'can' => 'nasabah.create',
+            'can' => 'nasabah.approve',
         ],
         [
             'text' => 'Approval Pembukaan',
             'url' => 'approval',
             'icon' => 'fas fa-fw fa-lock',
-            'can' => 'setujui nasabah',
+            'can' => 'nasabah.approve',
         ],
         // [
         //     'text' => 'multilevel',

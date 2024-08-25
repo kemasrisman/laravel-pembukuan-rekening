@@ -36,14 +36,16 @@ class PermissionsTableSeeder extends Seeder
         $user = \App\Models\User::factory()->create([
             'name' => 'Example Supervisi User',
             'email' => 'supervisi@example.com',
-            'password' => bcrypt('password123')
+            'password' => bcrypt('password123'),
+            'id_kc' => 1
         ]);
         $user->assignRole($role1);
 
         $user = \App\Models\User::factory()->create([
             'name' => 'Example CS User',
             'email' => 'cs@example.com',
-            'password' => bcrypt('password123')
+            'password' => bcrypt('password123'),
+            'id_kc' => 1
         ]);
         $user->assignRole($role2);
     }

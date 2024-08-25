@@ -12,6 +12,22 @@ class PekerjaanSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        $pekerjaan = [
+            'PNS',
+            'TNI',
+            'POLRI',
+            'Pegawai Swasta',
+            'Wiraswasta',
+            'Petani',
+            'Nelayan',
+            'Buruh',
+            'Lainnya',
+        ];
+
+        foreach ($pekerjaan as $pekerjaan) {
+            \App\Models\Pekerjaan::create([
+                'nama' => $pekerjaan,
+            ]);
+        }
     }
 }

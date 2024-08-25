@@ -11,7 +11,7 @@
                 <tr>
                     <th>No</th>
                     <th>Name</th>
-                    <th>Email</th>
+                    <th>Status</th>
                     <th width="100px">Action</th>
                 </tr>
             </thead>
@@ -38,15 +38,16 @@
 <script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
 <script type="text/javascript">
     $(function () {
-          
+        
+    // Datatables
       var table = $('.data-table').DataTable({
           processing: true,
           serverSide: true,
           ajax: "{{ route('nasabah.list') }}",
           columns: [
               {data: 'id', name: 'id'},
-              {data: 'name', name: 'name'},
-              {data: 'email', name: 'email'},
+              {data: 'nama', name: 'nama'},
+              {data: 'status', name: 'status'},
               {data: 'action', name: 'action', orderable: false, searchable: false},
           ]
       });
