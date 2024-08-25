@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\NasabahController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\WilayahController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -24,6 +25,11 @@ Route::middleware('auth')->group(function () {
     Route::get('/pembukaan-rekening', [NasabahController::class, 'create'])->name('nasabah.create');
     Route::post('/pembukaan-rekening', [NasabahController::class, 'store'])->name('nasabah.store');
     Route::post('/approval', [NasabahController::class, 'approve'])->name('nasabah.approve');
+
+    // Wilayah
+    Route::get('/wilayah/get-kabupaten', [WilayahController::class, 'getKabupaten'])->name('wilayah.get-kabupaten');
+    Route::get('/wilayah/get-kecamatan', [WilayahController::class, 'getKecamatan'])->name('wilayah.get-kecamatan');
+    Route::get('/wilayah/get-kelurahan', [WilayahController::class, 'getKelurahan'])->name('wilayah.get-kelurahan');
     
 });
 

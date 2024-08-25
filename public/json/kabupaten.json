@@ -1,0 +1,5142 @@
+[
+    {
+        "id": 1,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Aceh Barat",
+        "code": "05",
+        "full_code": "1105",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 2,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Aceh Barat Daya",
+        "code": "12",
+        "full_code": "1112",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 3,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Sabu Raijua",
+        "code": "20",
+        "full_code": "5320",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 4,
+        "provinsi_id": 10,
+        "type": "Kota",
+        "name": "Salatiga",
+        "code": "73",
+        "full_code": "3373",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 5,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Aceh Besar",
+        "code": "06",
+        "full_code": "1106",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 6,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Aceh Jaya",
+        "code": "14",
+        "full_code": "1114",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 7,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Aceh Selatan",
+        "code": "01",
+        "full_code": "1101",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 8,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Aceh Singkil",
+        "code": "10",
+        "full_code": "1110",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 9,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Aceh Tamiang",
+        "code": "16",
+        "full_code": "1116",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 10,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Aceh Tengah",
+        "code": "04",
+        "full_code": "1104",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 11,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Aceh Tenggara",
+        "code": "02",
+        "full_code": "1102",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 12,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Aceh Timur",
+        "code": "03",
+        "full_code": "1103",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 13,
+        "provinsi_id": 7,
+        "type": "Kabupaten",
+        "name": "Gorontalo Utara",
+        "code": "05",
+        "full_code": "7505",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 14,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Aceh Utara",
+        "code": "08",
+        "full_code": "1108",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 15,
+        "provinsi_id": 36,
+        "type": "Kabupaten",
+        "name": "Agam",
+        "code": "06",
+        "full_code": "1306",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 16,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Alor",
+        "code": "05",
+        "full_code": "5305",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 17,
+        "provinsi_id": 20,
+        "type": "Kota",
+        "name": "Ambon",
+        "code": "71",
+        "full_code": "8171",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 18,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Gowa",
+        "code": "06",
+        "full_code": "7306",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 19,
+        "provinsi_id": 15,
+        "type": "Kota",
+        "name": "Samarinda",
+        "code": "72",
+        "full_code": "6472",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 20,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Asahan",
+        "code": "09",
+        "full_code": "1209",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 21,
+        "provinsi_id": 12,
+        "type": "Kabupaten",
+        "name": "Sambas",
+        "code": "01",
+        "full_code": "6101",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 22,
+        "provinsi_id": 28,
+        "type": "Kabupaten",
+        "name": "Asmat",
+        "code": "04",
+        "full_code": "9304",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 23,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Samosir",
+        "code": "17",
+        "full_code": "1217",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 24,
+        "provinsi_id": 2,
+        "type": "Kabupaten",
+        "name": "Badung",
+        "code": "03",
+        "full_code": "5103",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 25,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Sampang",
+        "code": "27",
+        "full_code": "3527",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 26,
+        "provinsi_id": 13,
+        "type": "Kabupaten",
+        "name": "Balangan",
+        "code": "11",
+        "full_code": "6311",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 27,
+        "provinsi_id": 12,
+        "type": "Kabupaten",
+        "name": "Sanggau",
+        "code": "03",
+        "full_code": "6103",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 28,
+        "provinsi_id": 24,
+        "type": "Kabupaten",
+        "name": "Sarmi",
+        "code": "10",
+        "full_code": "9110",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 29,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Gresik",
+        "code": "25",
+        "full_code": "3525",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 30,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Grobogan",
+        "code": "15",
+        "full_code": "3315",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 31,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Gunung Mas",
+        "code": "10",
+        "full_code": "6210",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 32,
+        "provinsi_id": 5,
+        "type": "Kabupaten",
+        "name": "Gunungkidul",
+        "code": "03",
+        "full_code": "3403",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 33,
+        "provinsi_id": 8,
+        "type": "Kabupaten",
+        "name": "Sarolangun",
+        "code": "03",
+        "full_code": "1503",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 34,
+        "provinsi_id": 38,
+        "type": "Kota",
+        "name": "Gunungsitoli",
+        "code": "78",
+        "full_code": "1278",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 35,
+        "provinsi_id": 36,
+        "type": "Kota",
+        "name": "Sawahlunto",
+        "code": "73",
+        "full_code": "1373",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 36,
+        "provinsi_id": 21,
+        "type": "Kabupaten",
+        "name": "Halmahera Barat",
+        "code": "01",
+        "full_code": "8201",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 37,
+        "provinsi_id": 12,
+        "type": "Kabupaten",
+        "name": "Sekadau",
+        "code": "09",
+        "full_code": "6109",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 38,
+        "provinsi_id": 21,
+        "type": "Kabupaten",
+        "name": "Halmahera Selatan",
+        "code": "04",
+        "full_code": "8204",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 39,
+        "provinsi_id": 4,
+        "type": "Kabupaten",
+        "name": "Seluma",
+        "code": "05",
+        "full_code": "1705",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 40,
+        "provinsi_id": 21,
+        "type": "Kabupaten",
+        "name": "Halmahera Tengah",
+        "code": "02",
+        "full_code": "8202",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 41,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Semarang",
+        "code": "22",
+        "full_code": "3322",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 42,
+        "provinsi_id": 10,
+        "type": "Kota",
+        "name": "Semarang",
+        "code": "74",
+        "full_code": "3374",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 43,
+        "provinsi_id": 21,
+        "type": "Kabupaten",
+        "name": "Halmahera Timur",
+        "code": "06",
+        "full_code": "8206",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 44,
+        "provinsi_id": 20,
+        "type": "Kabupaten",
+        "name": "Seram Bagian Barat",
+        "code": "06",
+        "full_code": "8106",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 45,
+        "provinsi_id": 21,
+        "type": "Kabupaten",
+        "name": "Halmahera Utara",
+        "code": "03",
+        "full_code": "8203",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 46,
+        "provinsi_id": 20,
+        "type": "Kabupaten",
+        "name": "Seram Bagian Timur",
+        "code": "05",
+        "full_code": "8105",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 47,
+        "provinsi_id": 13,
+        "type": "Kabupaten",
+        "name": "Hulu Sungai Selatan",
+        "code": "06",
+        "full_code": "6306",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 48,
+        "provinsi_id": 13,
+        "type": "Kabupaten",
+        "name": "Hulu Sungai Tengah",
+        "code": "07",
+        "full_code": "6307",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 49,
+        "provinsi_id": 13,
+        "type": "Kabupaten",
+        "name": "Hulu Sungai Utara",
+        "code": "08",
+        "full_code": "6308",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 50,
+        "provinsi_id": 3,
+        "type": "Kota",
+        "name": "Serang",
+        "code": "73",
+        "full_code": "3673",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 51,
+        "provinsi_id": 3,
+        "type": "Kabupaten",
+        "name": "Serang",
+        "code": "04",
+        "full_code": "3604",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 52,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Humbang Hasundutan",
+        "code": "16",
+        "full_code": "1216",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 53,
+        "provinsi_id": 15,
+        "type": "Kota",
+        "name": "Balikpapan",
+        "code": "71",
+        "full_code": "6471",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 54,
+        "provinsi_id": 30,
+        "type": "Kabupaten",
+        "name": "Indragiri Hilir",
+        "code": "04",
+        "full_code": "1404",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 55,
+        "provinsi_id": 30,
+        "type": "Kabupaten",
+        "name": "Indragiri Hulu",
+        "code": "02",
+        "full_code": "1402",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 56,
+        "provinsi_id": 1,
+        "type": "Kota",
+        "name": "Banda Aceh",
+        "code": "71",
+        "full_code": "1171",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 57,
+        "provinsi_id": 19,
+        "type": "Kota",
+        "name": "Bandar Lampung",
+        "code": "71",
+        "full_code": "1871",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 58,
+        "provinsi_id": 9,
+        "type": "Kota",
+        "name": "Bandung",
+        "code": "73",
+        "full_code": "3273",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 59,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Bandung",
+        "code": "04",
+        "full_code": "3204",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 60,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Bandung Barat",
+        "code": "17",
+        "full_code": "3217",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 61,
+        "provinsi_id": 33,
+        "type": "Kabupaten",
+        "name": "Banggai",
+        "code": "01",
+        "full_code": "7201",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 62,
+        "provinsi_id": 33,
+        "type": "Kabupaten",
+        "name": "Banggai Kepulauan",
+        "code": "07",
+        "full_code": "7207",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 63,
+        "provinsi_id": 33,
+        "type": "Kabupaten",
+        "name": "Banggai Laut",
+        "code": "11",
+        "full_code": "7211",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 64,
+        "provinsi_id": 17,
+        "type": "Kabupaten",
+        "name": "Bangka",
+        "code": "01",
+        "full_code": "1901",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 65,
+        "provinsi_id": 17,
+        "type": "Kabupaten",
+        "name": "Bangka Barat",
+        "code": "05",
+        "full_code": "1905",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 66,
+        "provinsi_id": 17,
+        "type": "Kabupaten",
+        "name": "Bangka Selatan",
+        "code": "03",
+        "full_code": "1903",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 67,
+        "provinsi_id": 17,
+        "type": "Kabupaten",
+        "name": "Bangka Tengah",
+        "code": "04",
+        "full_code": "1904",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 68,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Bangkalan",
+        "code": "26",
+        "full_code": "3526",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 69,
+        "provinsi_id": 2,
+        "type": "Kabupaten",
+        "name": "Bangli",
+        "code": "06",
+        "full_code": "5106",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 70,
+        "provinsi_id": 9,
+        "type": "Kota",
+        "name": "Banjar",
+        "code": "79",
+        "full_code": "3279",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 71,
+        "provinsi_id": 13,
+        "type": "Kabupaten",
+        "name": "Banjar",
+        "code": "03",
+        "full_code": "6303",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 72,
+        "provinsi_id": 13,
+        "type": "Kota",
+        "name": "Banjarbaru",
+        "code": "72",
+        "full_code": "6372",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 73,
+        "provinsi_id": 13,
+        "type": "Kota",
+        "name": "Banjarmasin",
+        "code": "71",
+        "full_code": "6371",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 74,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Banjarnegara",
+        "code": "04",
+        "full_code": "3304",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 75,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Bantaeng",
+        "code": "03",
+        "full_code": "7303",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 76,
+        "provinsi_id": 5,
+        "type": "Kabupaten",
+        "name": "Bantul",
+        "code": "02",
+        "full_code": "3402",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 77,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Banyuasin",
+        "code": "07",
+        "full_code": "1607",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 78,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Banyumas",
+        "code": "02",
+        "full_code": "3302",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 79,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Banyuwangi",
+        "code": "10",
+        "full_code": "3510",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 80,
+        "provinsi_id": 13,
+        "type": "Kabupaten",
+        "name": "Barito Kuala",
+        "code": "04",
+        "full_code": "6304",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 81,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Barito Selatan",
+        "code": "04",
+        "full_code": "6204",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 82,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Barito Timur",
+        "code": "13",
+        "full_code": "6213",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 83,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Barito Utara",
+        "code": "05",
+        "full_code": "6205",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 84,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Barru",
+        "code": "11",
+        "full_code": "7311",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 85,
+        "provinsi_id": 18,
+        "type": "Kota",
+        "name": "Batam",
+        "code": "71",
+        "full_code": "2171",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 86,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Batang",
+        "code": "25",
+        "full_code": "3325",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 87,
+        "provinsi_id": 8,
+        "type": "Kabupaten",
+        "name": "Batanghari",
+        "code": "04",
+        "full_code": "1504",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 88,
+        "provinsi_id": 11,
+        "type": "Kota",
+        "name": "Batu",
+        "code": "79",
+        "full_code": "3579",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 89,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Batu Bara",
+        "code": "19",
+        "full_code": "1219",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 90,
+        "provinsi_id": 34,
+        "type": "Kota",
+        "name": "Bau Bau",
+        "code": "72",
+        "full_code": "7472",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 91,
+        "provinsi_id": 9,
+        "type": "Kota",
+        "name": "Bekasi",
+        "code": "75",
+        "full_code": "3275",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 92,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Bekasi",
+        "code": "16",
+        "full_code": "3216",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 93,
+        "provinsi_id": 17,
+        "type": "Kabupaten",
+        "name": "Belitung",
+        "code": "02",
+        "full_code": "1902",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 94,
+        "provinsi_id": 17,
+        "type": "Kabupaten",
+        "name": "Belitung Timur",
+        "code": "06",
+        "full_code": "1906",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 95,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Belu",
+        "code": "04",
+        "full_code": "5304",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 96,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Bener Meriah",
+        "code": "17",
+        "full_code": "1117",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 97,
+        "provinsi_id": 30,
+        "type": "Kabupaten",
+        "name": "Bengkalis",
+        "code": "03",
+        "full_code": "1403",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 98,
+        "provinsi_id": 12,
+        "type": "Kabupaten",
+        "name": "Bengkayang",
+        "code": "07",
+        "full_code": "6107",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 99,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Serdang Bedagai",
+        "code": "18",
+        "full_code": "1218",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 100,
+        "provinsi_id": 4,
+        "type": "Kota",
+        "name": "Bengkulu",
+        "code": "71",
+        "full_code": "1771",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 101,
+        "provinsi_id": 4,
+        "type": "Kabupaten",
+        "name": "Bengkulu Selatan",
+        "code": "01",
+        "full_code": "1701",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 102,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Seruyan",
+        "code": "07",
+        "full_code": "6207",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 103,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Indramayu",
+        "code": "12",
+        "full_code": "3212",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 104,
+        "provinsi_id": 30,
+        "type": "Kabupaten",
+        "name": "Siak",
+        "code": "08",
+        "full_code": "1408",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 105,
+        "provinsi_id": 29,
+        "type": "Kabupaten",
+        "name": "Intan Jaya",
+        "code": "07",
+        "full_code": "9407",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 106,
+        "provinsi_id": 6,
+        "type": "Kota",
+        "name": "Jakarta Barat",
+        "code": "73",
+        "full_code": "3173",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 107,
+        "provinsi_id": 38,
+        "type": "Kota",
+        "name": "Sibolga",
+        "code": "73",
+        "full_code": "1273",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 323,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Garut",
+        "code": "05",
+        "full_code": "3205",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 108,
+        "provinsi_id": 4,
+        "type": "Kabupaten",
+        "name": "Bengkulu Tengah",
+        "code": "09",
+        "full_code": "1709",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 109,
+        "provinsi_id": 6,
+        "type": "Kota",
+        "name": "Jakarta Pusat",
+        "code": "71",
+        "full_code": "3171",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 110,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Sidenreng Rappang",
+        "code": "14",
+        "full_code": "7314",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 111,
+        "provinsi_id": 4,
+        "type": "Kabupaten",
+        "name": "Bengkulu Utara",
+        "code": "03",
+        "full_code": "1703",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 112,
+        "provinsi_id": 6,
+        "type": "Kota",
+        "name": "Jakarta Selatan",
+        "code": "74",
+        "full_code": "3174",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 113,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Sidoarjo",
+        "code": "15",
+        "full_code": "3515",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 114,
+        "provinsi_id": 6,
+        "type": "Kota",
+        "name": "Jakarta Timur",
+        "code": "75",
+        "full_code": "3175",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 115,
+        "provinsi_id": 33,
+        "type": "Kabupaten",
+        "name": "Sigi",
+        "code": "10",
+        "full_code": "7210",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 116,
+        "provinsi_id": 15,
+        "type": "Kabupaten",
+        "name": "Berau",
+        "code": "03",
+        "full_code": "6403",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 117,
+        "provinsi_id": 24,
+        "type": "Kabupaten",
+        "name": "Biak Numfor",
+        "code": "06",
+        "full_code": "9106",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 118,
+        "provinsi_id": 22,
+        "type": "Kabupaten",
+        "name": "Bima",
+        "code": "06",
+        "full_code": "5206",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 119,
+        "provinsi_id": 6,
+        "type": "Kota",
+        "name": "Jakarta Utara",
+        "code": "72",
+        "full_code": "3172",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 120,
+        "provinsi_id": 22,
+        "type": "Kota",
+        "name": "Bima",
+        "code": "72",
+        "full_code": "5272",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 121,
+        "provinsi_id": 8,
+        "type": "Kota",
+        "name": "Jambi",
+        "code": "71",
+        "full_code": "1571",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 122,
+        "provinsi_id": 36,
+        "type": "Kabupaten",
+        "name": "Sijunjung",
+        "code": "03",
+        "full_code": "1303",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 123,
+        "provinsi_id": 38,
+        "type": "Kota",
+        "name": "Binjai",
+        "code": "75",
+        "full_code": "1275",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 124,
+        "provinsi_id": 24,
+        "type": "Kabupaten",
+        "name": "Jayapura",
+        "code": "03",
+        "full_code": "9103",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 125,
+        "provinsi_id": 18,
+        "type": "Kabupaten",
+        "name": "Bintan",
+        "code": "01",
+        "full_code": "2101",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 126,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Sikka",
+        "code": "07",
+        "full_code": "5307",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 127,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Bireuen",
+        "code": "11",
+        "full_code": "1111",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 128,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Simalungun",
+        "code": "08",
+        "full_code": "1208",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 129,
+        "provinsi_id": 35,
+        "type": "Kota",
+        "name": "Bitung",
+        "code": "72",
+        "full_code": "7172",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 130,
+        "provinsi_id": 24,
+        "type": "Kota",
+        "name": "Jayapura",
+        "code": "71",
+        "full_code": "9171",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 131,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Simeulue",
+        "code": "09",
+        "full_code": "1109",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 132,
+        "provinsi_id": 27,
+        "type": "Kabupaten",
+        "name": "Jayawijaya",
+        "code": "01",
+        "full_code": "9501",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 133,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Jember",
+        "code": "09",
+        "full_code": "3509",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 134,
+        "provinsi_id": 12,
+        "type": "Kota",
+        "name": "Singkawang",
+        "code": "72",
+        "full_code": "6172",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 135,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Blitar",
+        "code": "05",
+        "full_code": "3505",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 136,
+        "provinsi_id": 2,
+        "type": "Kabupaten",
+        "name": "Jembrana",
+        "code": "01",
+        "full_code": "5101",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 137,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Sinjai",
+        "code": "07",
+        "full_code": "7307",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 138,
+        "provinsi_id": 11,
+        "type": "Kota",
+        "name": "Blitar",
+        "code": "72",
+        "full_code": "3572",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 139,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Jeneponto",
+        "code": "04",
+        "full_code": "7304",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 140,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Blora",
+        "code": "16",
+        "full_code": "3316",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 141,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Jepara",
+        "code": "20",
+        "full_code": "3320",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 142,
+        "provinsi_id": 12,
+        "type": "Kabupaten",
+        "name": "Sintang",
+        "code": "05",
+        "full_code": "6105",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 143,
+        "provinsi_id": 7,
+        "type": "Kabupaten",
+        "name": "Boalemo",
+        "code": "02",
+        "full_code": "7502",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 144,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Jombang",
+        "code": "17",
+        "full_code": "3517",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 145,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Bogor",
+        "code": "01",
+        "full_code": "3201",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 146,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Situbondo",
+        "code": "12",
+        "full_code": "3512",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 147,
+        "provinsi_id": 25,
+        "type": "Kabupaten",
+        "name": "Kaimana",
+        "code": "08",
+        "full_code": "9208",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 148,
+        "provinsi_id": 9,
+        "type": "Kota",
+        "name": "Bogor",
+        "code": "71",
+        "full_code": "3271",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 149,
+        "provinsi_id": 5,
+        "type": "Kabupaten",
+        "name": "Sleman",
+        "code": "04",
+        "full_code": "3404",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 150,
+        "provinsi_id": 30,
+        "type": "Kabupaten",
+        "name": "Kampar",
+        "code": "01",
+        "full_code": "1401",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 151,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Bojonegoro",
+        "code": "22",
+        "full_code": "3522",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 152,
+        "provinsi_id": 36,
+        "type": "Kabupaten",
+        "name": "Solok",
+        "code": "02",
+        "full_code": "1302",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 153,
+        "provinsi_id": 35,
+        "type": "Kabupaten",
+        "name": "Bolaang Mongondow",
+        "code": "01",
+        "full_code": "7101",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 154,
+        "provinsi_id": 35,
+        "type": "Kabupaten",
+        "name": "Bolaang Mongondow Selatan",
+        "code": "11",
+        "full_code": "7111",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 155,
+        "provinsi_id": 36,
+        "type": "Kota",
+        "name": "Solok",
+        "code": "72",
+        "full_code": "1372",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 156,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Kapuas",
+        "code": "03",
+        "full_code": "6203",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 157,
+        "provinsi_id": 36,
+        "type": "Kabupaten",
+        "name": "Solok Selatan",
+        "code": "11",
+        "full_code": "1311",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 158,
+        "provinsi_id": 35,
+        "type": "Kabupaten",
+        "name": "Bolaang Mongondow Timur",
+        "code": "10",
+        "full_code": "7110",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 159,
+        "provinsi_id": 12,
+        "type": "Kabupaten",
+        "name": "Kapuas Hulu",
+        "code": "06",
+        "full_code": "6106",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 160,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Karanganyar",
+        "code": "13",
+        "full_code": "3313",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 161,
+        "provinsi_id": 2,
+        "type": "Kabupaten",
+        "name": "Karangasem",
+        "code": "07",
+        "full_code": "5107",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 162,
+        "provinsi_id": 35,
+        "type": "Kabupaten",
+        "name": "Bolaang Mongondow Utara",
+        "code": "08",
+        "full_code": "7108",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 163,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Karawang",
+        "code": "15",
+        "full_code": "3215",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 164,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Bombana",
+        "code": "06",
+        "full_code": "7406",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 165,
+        "provinsi_id": 18,
+        "type": "Kabupaten",
+        "name": "Karimun",
+        "code": "02",
+        "full_code": "2102",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 166,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Bondowoso",
+        "code": "11",
+        "full_code": "3511",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 167,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Karo",
+        "code": "06",
+        "full_code": "1206",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 168,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Soppeng",
+        "code": "12",
+        "full_code": "7312",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 169,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Katingan",
+        "code": "06",
+        "full_code": "6206",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 170,
+        "provinsi_id": 4,
+        "type": "Kabupaten",
+        "name": "Kaur",
+        "code": "04",
+        "full_code": "1704",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 171,
+        "provinsi_id": 26,
+        "type": "Kabupaten",
+        "name": "Sorong",
+        "code": "01",
+        "full_code": "9201",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 172,
+        "provinsi_id": 12,
+        "type": "Kabupaten",
+        "name": "Kayong Utara",
+        "code": "11",
+        "full_code": "6111",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 173,
+        "provinsi_id": 26,
+        "type": "Kota",
+        "name": "Sorong",
+        "code": "71",
+        "full_code": "9271",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 174,
+        "provinsi_id": 26,
+        "type": "Kabupaten",
+        "name": "Sorong Selatan",
+        "code": "04",
+        "full_code": "9204",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 175,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Kebumen",
+        "code": "05",
+        "full_code": "3305",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 176,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Sragen",
+        "code": "14",
+        "full_code": "3314",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 177,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Kediri",
+        "code": "06",
+        "full_code": "3506",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 178,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Subang",
+        "code": "13",
+        "full_code": "3213",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 179,
+        "provinsi_id": 1,
+        "type": "Kota",
+        "name": "Subulussalam",
+        "code": "75",
+        "full_code": "1175",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 180,
+        "provinsi_id": 9,
+        "type": "Kota",
+        "name": "Sukabumi",
+        "code": "72",
+        "full_code": "3272",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 181,
+        "provinsi_id": 11,
+        "type": "Kota",
+        "name": "Kediri",
+        "code": "71",
+        "full_code": "3571",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 182,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Bone",
+        "code": "08",
+        "full_code": "7308",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 183,
+        "provinsi_id": 24,
+        "type": "Kabupaten",
+        "name": "Keerom",
+        "code": "11",
+        "full_code": "9111",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 184,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Sukabumi",
+        "code": "02",
+        "full_code": "3202",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 185,
+        "provinsi_id": 7,
+        "type": "Kabupaten",
+        "name": "Bone Bolango",
+        "code": "03",
+        "full_code": "7503",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 186,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Kendal",
+        "code": "24",
+        "full_code": "3324",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 187,
+        "provinsi_id": 15,
+        "type": "Kota",
+        "name": "Bontang",
+        "code": "74",
+        "full_code": "6474",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 188,
+        "provinsi_id": 34,
+        "type": "Kota",
+        "name": "Kendari",
+        "code": "71",
+        "full_code": "7471",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 189,
+        "provinsi_id": 28,
+        "type": "Kabupaten",
+        "name": "Boven Digoel",
+        "code": "02",
+        "full_code": "9302",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 190,
+        "provinsi_id": 4,
+        "type": "Kabupaten",
+        "name": "Kepahiang",
+        "code": "08",
+        "full_code": "1708",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 191,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Boyolali",
+        "code": "09",
+        "full_code": "3309",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 192,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Sukamara",
+        "code": "08",
+        "full_code": "6208",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 193,
+        "provinsi_id": 18,
+        "type": "Kabupaten",
+        "name": "Kepulauan Anambas",
+        "code": "05",
+        "full_code": "2105",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 194,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Sukoharjo",
+        "code": "11",
+        "full_code": "3311",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 195,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Sumba Barat",
+        "code": "12",
+        "full_code": "5312",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 196,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Brebes",
+        "code": "29",
+        "full_code": "3329",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 197,
+        "provinsi_id": 36,
+        "type": "Kota",
+        "name": "Bukittinggi",
+        "code": "75",
+        "full_code": "1375",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 198,
+        "provinsi_id": 2,
+        "type": "Kabupaten",
+        "name": "Buleleng",
+        "code": "08",
+        "full_code": "5108",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 199,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Bulukumba",
+        "code": "02",
+        "full_code": "7302",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 200,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Sumba Barat Daya",
+        "code": "18",
+        "full_code": "5318",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 201,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Sumba Tengah",
+        "code": "17",
+        "full_code": "5317",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 202,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Sumba Timur",
+        "code": "11",
+        "full_code": "5311",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 203,
+        "provinsi_id": 16,
+        "type": "Kabupaten",
+        "name": "Bulungan",
+        "code": "01",
+        "full_code": "6501",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 204,
+        "provinsi_id": 22,
+        "type": "Kabupaten",
+        "name": "Sumbawa",
+        "code": "04",
+        "full_code": "5204",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 205,
+        "provinsi_id": 8,
+        "type": "Kabupaten",
+        "name": "Bungo",
+        "code": "08",
+        "full_code": "1508",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 206,
+        "provinsi_id": 22,
+        "type": "Kabupaten",
+        "name": "Sumbawa Barat",
+        "code": "07",
+        "full_code": "5207",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 207,
+        "provinsi_id": 33,
+        "type": "Kabupaten",
+        "name": "Buol",
+        "code": "05",
+        "full_code": "7205",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 208,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Sumedang",
+        "code": "11",
+        "full_code": "3211",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 209,
+        "provinsi_id": 20,
+        "type": "Kabupaten",
+        "name": "Buru",
+        "code": "04",
+        "full_code": "8104",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 210,
+        "provinsi_id": 20,
+        "type": "Kabupaten",
+        "name": "Buru Selatan",
+        "code": "09",
+        "full_code": "8109",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 211,
+        "provinsi_id": 20,
+        "type": "Kabupaten",
+        "name": "Kepulauan Aru",
+        "code": "07",
+        "full_code": "8107",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 212,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Sumenep",
+        "code": "29",
+        "full_code": "3529",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 213,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Buton",
+        "code": "04",
+        "full_code": "7404",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 214,
+        "provinsi_id": 8,
+        "type": "Kota",
+        "name": "Sungai Penuh",
+        "code": "72",
+        "full_code": "1572",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 215,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Buton Selatan",
+        "code": "15",
+        "full_code": "7415",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 216,
+        "provinsi_id": 24,
+        "type": "Kabupaten",
+        "name": "Supiori",
+        "code": "19",
+        "full_code": "9119",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 217,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Buton Tengah",
+        "code": "14",
+        "full_code": "7414",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 218,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Buton Utara",
+        "code": "10",
+        "full_code": "7410",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 219,
+        "provinsi_id": 11,
+        "type": "Kota",
+        "name": "Surabaya",
+        "code": "78",
+        "full_code": "3578",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 220,
+        "provinsi_id": 36,
+        "type": "Kabupaten",
+        "name": "Kepulauan Mentawai",
+        "code": "09",
+        "full_code": "1309",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 221,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Ciamis",
+        "code": "07",
+        "full_code": "3207",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 222,
+        "provinsi_id": 10,
+        "type": "Kota",
+        "name": "Surakarta",
+        "code": "72",
+        "full_code": "3372",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 223,
+        "provinsi_id": 30,
+        "type": "Kabupaten",
+        "name": "Kepulauan Meranti",
+        "code": "10",
+        "full_code": "1410",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 224,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Cianjur",
+        "code": "03",
+        "full_code": "3203",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 225,
+        "provinsi_id": 13,
+        "type": "Kabupaten",
+        "name": "Tabalong",
+        "code": "09",
+        "full_code": "6309",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 226,
+        "provinsi_id": 35,
+        "type": "Kabupaten",
+        "name": "Kepulauan Sangihe",
+        "code": "03",
+        "full_code": "7103",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 227,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Kepulauan Selayar",
+        "code": "01",
+        "full_code": "7301",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 228,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Cilacap",
+        "code": "01",
+        "full_code": "3301",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 229,
+        "provinsi_id": 3,
+        "type": "Kota",
+        "name": "Cilegon",
+        "code": "72",
+        "full_code": "3672",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 230,
+        "provinsi_id": 2,
+        "type": "Kabupaten",
+        "name": "Tabanan",
+        "code": "02",
+        "full_code": "5102",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 231,
+        "provinsi_id": 9,
+        "type": "Kota",
+        "name": "Cimahi",
+        "code": "77",
+        "full_code": "3277",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 232,
+        "provinsi_id": 6,
+        "type": "Kabupaten",
+        "name": "Kepulauan Seribu",
+        "code": "01",
+        "full_code": "3101",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 233,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Takalar",
+        "code": "05",
+        "full_code": "7305",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 234,
+        "provinsi_id": 9,
+        "type": "Kota",
+        "name": "Cirebon",
+        "code": "74",
+        "full_code": "3274",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 235,
+        "provinsi_id": 35,
+        "type": "Kabupaten",
+        "name": "Kepulauan Siau Tagulandang Biaro (Sitaro)",
+        "code": "09",
+        "full_code": "7109",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 236,
+        "provinsi_id": 21,
+        "type": "Kabupaten",
+        "name": "Kepulauan Sula",
+        "code": "05",
+        "full_code": "8205",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 237,
+        "provinsi_id": 26,
+        "type": "Kabupaten",
+        "name": "Tambrauw",
+        "code": "09",
+        "full_code": "9209",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 238,
+        "provinsi_id": 35,
+        "type": "Kabupaten",
+        "name": "Kepulauan Talaud",
+        "code": "04",
+        "full_code": "7104",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 239,
+        "provinsi_id": 20,
+        "type": "Kabupaten",
+        "name": "Kepulauan Tanimbar (Maluku Tenggara Barat)",
+        "code": "03",
+        "full_code": "8103",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 240,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Cirebon",
+        "code": "09",
+        "full_code": "3209",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 241,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Dairi",
+        "code": "11",
+        "full_code": "1211",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 242,
+        "provinsi_id": 16,
+        "type": "Kabupaten",
+        "name": "Tana Tidung",
+        "code": "04",
+        "full_code": "6504",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 243,
+        "provinsi_id": 29,
+        "type": "Kabupaten",
+        "name": "Deiyai",
+        "code": "08",
+        "full_code": "9408",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 244,
+        "provinsi_id": 24,
+        "type": "Kabupaten",
+        "name": "Kepulauan Yapen",
+        "code": "05",
+        "full_code": "9105",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 245,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Deli Serdang",
+        "code": "07",
+        "full_code": "1207",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 246,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Tana Toraja",
+        "code": "18",
+        "full_code": "7318",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 247,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Demak",
+        "code": "21",
+        "full_code": "3321",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 248,
+        "provinsi_id": 8,
+        "type": "Kabupaten",
+        "name": "Kerinci",
+        "code": "01",
+        "full_code": "1501",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 249,
+        "provinsi_id": 13,
+        "type": "Kabupaten",
+        "name": "Tanah Bumbu",
+        "code": "10",
+        "full_code": "6310",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 250,
+        "provinsi_id": 2,
+        "type": "Kota",
+        "name": "Denpasar",
+        "code": "71",
+        "full_code": "5171",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 251,
+        "provinsi_id": 12,
+        "type": "Kabupaten",
+        "name": "Ketapang",
+        "code": "04",
+        "full_code": "6104",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 252,
+        "provinsi_id": 9,
+        "type": "Kota",
+        "name": "Depok",
+        "code": "76",
+        "full_code": "3276",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 253,
+        "provinsi_id": 36,
+        "type": "Kabupaten",
+        "name": "Tanah Datar",
+        "code": "04",
+        "full_code": "1304",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 254,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Klaten",
+        "code": "10",
+        "full_code": "3310",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 255,
+        "provinsi_id": 36,
+        "type": "Kabupaten",
+        "name": "Dharmasraya",
+        "code": "10",
+        "full_code": "1310",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 256,
+        "provinsi_id": 13,
+        "type": "Kabupaten",
+        "name": "Tanah Laut",
+        "code": "01",
+        "full_code": "6301",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 257,
+        "provinsi_id": 29,
+        "type": "Kabupaten",
+        "name": "Dogiyai",
+        "code": "06",
+        "full_code": "9406",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 258,
+        "provinsi_id": 2,
+        "type": "Kabupaten",
+        "name": "Klungkung",
+        "code": "05",
+        "full_code": "5105",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 259,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Kolaka",
+        "code": "01",
+        "full_code": "7401",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 260,
+        "provinsi_id": 3,
+        "type": "Kota",
+        "name": "Tangerang",
+        "code": "71",
+        "full_code": "3671",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 261,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Kolaka Timur",
+        "code": "11",
+        "full_code": "7411",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 262,
+        "provinsi_id": 3,
+        "type": "Kabupaten",
+        "name": "Tangerang",
+        "code": "03",
+        "full_code": "3603",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 263,
+        "provinsi_id": 3,
+        "type": "Kota",
+        "name": "Tangerang Selatan",
+        "code": "74",
+        "full_code": "3674",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 264,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Tanggamus",
+        "code": "06",
+        "full_code": "1806",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 265,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Kolaka Utara",
+        "code": "08",
+        "full_code": "7408",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 266,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Konawe",
+        "code": "02",
+        "full_code": "7402",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 267,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Konawe Kepulauan",
+        "code": "12",
+        "full_code": "7412",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 268,
+        "provinsi_id": 38,
+        "type": "Kota",
+        "name": "Tanjung Balai",
+        "code": "74",
+        "full_code": "1274",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 269,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Konawe Selatan",
+        "code": "05",
+        "full_code": "7405",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 270,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Konawe Utara",
+        "code": "09",
+        "full_code": "7409",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 271,
+        "provinsi_id": 13,
+        "type": "Kabupaten",
+        "name": "Kotabaru",
+        "code": "02",
+        "full_code": "6302",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 272,
+        "provinsi_id": 8,
+        "type": "Kabupaten",
+        "name": "Tanjung Jabung Barat",
+        "code": "06",
+        "full_code": "1506",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 273,
+        "provinsi_id": 35,
+        "type": "Kota",
+        "name": "Kotamobagu",
+        "code": "74",
+        "full_code": "7174",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 274,
+        "provinsi_id": 8,
+        "type": "Kabupaten",
+        "name": "Tanjung Jabung Timur",
+        "code": "07",
+        "full_code": "1507",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 275,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Kotawaringin Barat",
+        "code": "01",
+        "full_code": "6201",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 276,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Kotawaringin Timur",
+        "code": "02",
+        "full_code": "6202",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 277,
+        "provinsi_id": 18,
+        "type": "Kota",
+        "name": "Tanjung Pinang",
+        "code": "72",
+        "full_code": "2172",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 278,
+        "provinsi_id": 30,
+        "type": "Kabupaten",
+        "name": "Kuantan Singingi",
+        "code": "09",
+        "full_code": "1409",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 279,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Tapanuli Selatan",
+        "code": "03",
+        "full_code": "1203",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 280,
+        "provinsi_id": 12,
+        "type": "Kabupaten",
+        "name": "Kubu Raya",
+        "code": "12",
+        "full_code": "6112",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 281,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Kudus",
+        "code": "19",
+        "full_code": "3319",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 282,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Tapanuli Tengah",
+        "code": "01",
+        "full_code": "1201",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 283,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Tapanuli Utara",
+        "code": "02",
+        "full_code": "1202",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 284,
+        "provinsi_id": 13,
+        "type": "Kabupaten",
+        "name": "Tapin",
+        "code": "05",
+        "full_code": "6305",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 285,
+        "provinsi_id": 16,
+        "type": "Kota",
+        "name": "Tarakan",
+        "code": "71",
+        "full_code": "6571",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 286,
+        "provinsi_id": 9,
+        "type": "Kota",
+        "name": "Tasikmalaya",
+        "code": "78",
+        "full_code": "3278",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 287,
+        "provinsi_id": 5,
+        "type": "Kabupaten",
+        "name": "Kulon Progo",
+        "code": "01",
+        "full_code": "3401",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 288,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Kuningan",
+        "code": "08",
+        "full_code": "3208",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 289,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Kupang",
+        "code": "01",
+        "full_code": "5301",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 290,
+        "provinsi_id": 23,
+        "type": "Kota",
+        "name": "Kupang",
+        "code": "71",
+        "full_code": "5371",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 291,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Tasikmalaya",
+        "code": "06",
+        "full_code": "3206",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 292,
+        "provinsi_id": 15,
+        "type": "Kabupaten",
+        "name": "Kutai Barat",
+        "code": "07",
+        "full_code": "6407",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 293,
+        "provinsi_id": 15,
+        "type": "Kabupaten",
+        "name": "Kutai Kartanegara",
+        "code": "02",
+        "full_code": "6402",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 294,
+        "provinsi_id": 15,
+        "type": "Kabupaten",
+        "name": "Kutai Timur",
+        "code": "08",
+        "full_code": "6408",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 295,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Labuhanbatu",
+        "code": "10",
+        "full_code": "1210",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 296,
+        "provinsi_id": 38,
+        "type": "Kota",
+        "name": "Tebing Tinggi",
+        "code": "76",
+        "full_code": "1276",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 297,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Labuhanbatu Selatan",
+        "code": "22",
+        "full_code": "1222",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 298,
+        "provinsi_id": 8,
+        "type": "Kabupaten",
+        "name": "Tebo",
+        "code": "09",
+        "full_code": "1509",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 299,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Tegal",
+        "code": "28",
+        "full_code": "3328",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 300,
+        "provinsi_id": 10,
+        "type": "Kota",
+        "name": "Tegal",
+        "code": "76",
+        "full_code": "3376",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 301,
+        "provinsi_id": 25,
+        "type": "Kabupaten",
+        "name": "Teluk Bintuni",
+        "code": "06",
+        "full_code": "9206",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 302,
+        "provinsi_id": 25,
+        "type": "Kabupaten",
+        "name": "Teluk Wondama",
+        "code": "07",
+        "full_code": "9207",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 303,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Labuhanbatu Utara",
+        "code": "23",
+        "full_code": "1223",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 304,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Temanggung",
+        "code": "23",
+        "full_code": "3323",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 305,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Lahat",
+        "code": "04",
+        "full_code": "1604",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 306,
+        "provinsi_id": 21,
+        "type": "Kota",
+        "name": "Ternate",
+        "code": "71",
+        "full_code": "8271",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 307,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Lamandau",
+        "code": "09",
+        "full_code": "6209",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 308,
+        "provinsi_id": 22,
+        "type": "Kabupaten",
+        "name": "Dompu",
+        "code": "05",
+        "full_code": "5205",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 309,
+        "provinsi_id": 33,
+        "type": "Kabupaten",
+        "name": "Donggala",
+        "code": "03",
+        "full_code": "7203",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 310,
+        "provinsi_id": 30,
+        "type": "Kota",
+        "name": "Dumai",
+        "code": "72",
+        "full_code": "1472",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 311,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Empat Lawang",
+        "code": "11",
+        "full_code": "1611",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 312,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Lamongan",
+        "code": "24",
+        "full_code": "3524",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 313,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Ende",
+        "code": "08",
+        "full_code": "5308",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 314,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Lampung Barat",
+        "code": "04",
+        "full_code": "1804",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 315,
+        "provinsi_id": 21,
+        "type": "Kota",
+        "name": "Tidore Kepulauan",
+        "code": "72",
+        "full_code": "8272",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 316,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Enrekang",
+        "code": "16",
+        "full_code": "7316",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 317,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Lampung Selatan",
+        "code": "01",
+        "full_code": "1801",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 318,
+        "provinsi_id": 25,
+        "type": "Kabupaten",
+        "name": "Fak Fak",
+        "code": "03",
+        "full_code": "9203",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 319,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Timor Tengah Selatan",
+        "code": "02",
+        "full_code": "5302",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 320,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Lampung Tengah",
+        "code": "02",
+        "full_code": "1802",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 321,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Flores Timur",
+        "code": "06",
+        "full_code": "5306",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 322,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Lampung Timur",
+        "code": "07",
+        "full_code": "1807",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 324,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Timor Tengah Utara",
+        "code": "03",
+        "full_code": "5303",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 325,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Lampung Utara",
+        "code": "03",
+        "full_code": "1803",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 326,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Toba",
+        "code": "12",
+        "full_code": "1212",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 327,
+        "provinsi_id": 33,
+        "type": "Kabupaten",
+        "name": "Tojo Una Una",
+        "code": "09",
+        "full_code": "7209",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 328,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Gayo Lues",
+        "code": "13",
+        "full_code": "1113",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 329,
+        "provinsi_id": 12,
+        "type": "Kabupaten",
+        "name": "Landak",
+        "code": "08",
+        "full_code": "6108",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 330,
+        "provinsi_id": 2,
+        "type": "Kabupaten",
+        "name": "Gianyar",
+        "code": "04",
+        "full_code": "5104",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 331,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Langkat",
+        "code": "05",
+        "full_code": "1205",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 332,
+        "provinsi_id": 7,
+        "type": "Kabupaten",
+        "name": "Gorontalo",
+        "code": "01",
+        "full_code": "7501",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 333,
+        "provinsi_id": 1,
+        "type": "Kota",
+        "name": "Langsa",
+        "code": "74",
+        "full_code": "1174",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 334,
+        "provinsi_id": 33,
+        "type": "Kabupaten",
+        "name": "Toli Toli",
+        "code": "04",
+        "full_code": "7204",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 335,
+        "provinsi_id": 27,
+        "type": "Kabupaten",
+        "name": "Lanny Jaya",
+        "code": "07",
+        "full_code": "9507",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 336,
+        "provinsi_id": 3,
+        "type": "Kabupaten",
+        "name": "Lebak",
+        "code": "02",
+        "full_code": "3602",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 337,
+        "provinsi_id": 7,
+        "type": "Kota",
+        "name": "Gorontalo",
+        "code": "71",
+        "full_code": "7571",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 338,
+        "provinsi_id": 27,
+        "type": "Kabupaten",
+        "name": "Tolikara",
+        "code": "04",
+        "full_code": "9504",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 339,
+        "provinsi_id": 35,
+        "type": "Kota",
+        "name": "Tomohon",
+        "code": "73",
+        "full_code": "7173",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 340,
+        "provinsi_id": 4,
+        "type": "Kabupaten",
+        "name": "Lebong",
+        "code": "07",
+        "full_code": "1707",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 341,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Toraja Utara",
+        "code": "26",
+        "full_code": "7326",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 342,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Lembata",
+        "code": "13",
+        "full_code": "5313",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 343,
+        "provinsi_id": 1,
+        "type": "Kota",
+        "name": "Lhokseumawe",
+        "code": "73",
+        "full_code": "1173",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 344,
+        "provinsi_id": 36,
+        "type": "Kabupaten",
+        "name": "Lima Puluh Kota",
+        "code": "07",
+        "full_code": "1307",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 345,
+        "provinsi_id": 18,
+        "type": "Kabupaten",
+        "name": "Lingga",
+        "code": "04",
+        "full_code": "2104",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 346,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Trenggalek",
+        "code": "03",
+        "full_code": "3503",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 347,
+        "provinsi_id": 20,
+        "type": "Kota",
+        "name": "Tual",
+        "code": "72",
+        "full_code": "8172",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 348,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Tuban",
+        "code": "23",
+        "full_code": "3523",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 349,
+        "provinsi_id": 22,
+        "type": "Kabupaten",
+        "name": "Lombok Barat",
+        "code": "01",
+        "full_code": "5201",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 350,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Tulang Bawang",
+        "code": "05",
+        "full_code": "1805",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 351,
+        "provinsi_id": 22,
+        "type": "Kabupaten",
+        "name": "Lombok Tengah",
+        "code": "02",
+        "full_code": "5202",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 352,
+        "provinsi_id": 22,
+        "type": "Kabupaten",
+        "name": "Lombok Timur",
+        "code": "03",
+        "full_code": "5203",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 353,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Tulang Bawang Barat",
+        "code": "12",
+        "full_code": "1812",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 354,
+        "provinsi_id": 22,
+        "type": "Kabupaten",
+        "name": "Lombok Utara",
+        "code": "08",
+        "full_code": "5208",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 355,
+        "provinsi_id": 37,
+        "type": "Kota",
+        "name": "Lubuk Linggau",
+        "code": "73",
+        "full_code": "1673",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 356,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Tulungagung",
+        "code": "04",
+        "full_code": "3504",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 357,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Lumajang",
+        "code": "08",
+        "full_code": "3508",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 358,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Wajo",
+        "code": "13",
+        "full_code": "7313",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 359,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Luwu",
+        "code": "17",
+        "full_code": "7317",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 360,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Luwu Timur",
+        "code": "24",
+        "full_code": "7324",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 361,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Wakatobi",
+        "code": "07",
+        "full_code": "7407",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 362,
+        "provinsi_id": 24,
+        "type": "Kabupaten",
+        "name": "Waropen",
+        "code": "15",
+        "full_code": "9115",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 363,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Way Kanan",
+        "code": "08",
+        "full_code": "1808",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 364,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Wonogiri",
+        "code": "12",
+        "full_code": "3312",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 365,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Wonosobo",
+        "code": "07",
+        "full_code": "3307",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 366,
+        "provinsi_id": 27,
+        "type": "Kabupaten",
+        "name": "Yahukimo",
+        "code": "03",
+        "full_code": "9503",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 367,
+        "provinsi_id": 27,
+        "type": "Kabupaten",
+        "name": "Yalimo",
+        "code": "06",
+        "full_code": "9506",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 368,
+        "provinsi_id": 5,
+        "type": "Kota",
+        "name": "Yogyakarta",
+        "code": "71",
+        "full_code": "3471",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 369,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Luwu Utara",
+        "code": "22",
+        "full_code": "7322",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 370,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Madiun",
+        "code": "19",
+        "full_code": "3519",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 371,
+        "provinsi_id": 11,
+        "type": "Kota",
+        "name": "Madiun",
+        "code": "77",
+        "full_code": "3577",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 372,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Magelang",
+        "code": "08",
+        "full_code": "3308",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 373,
+        "provinsi_id": 10,
+        "type": "Kota",
+        "name": "Magelang",
+        "code": "71",
+        "full_code": "3371",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 374,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Magetan",
+        "code": "20",
+        "full_code": "3520",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 375,
+        "provinsi_id": 15,
+        "type": "Kabupaten",
+        "name": "Mahakam Ulu",
+        "code": "11",
+        "full_code": "6411",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 376,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Majalengka",
+        "code": "10",
+        "full_code": "3210",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 377,
+        "provinsi_id": 31,
+        "type": "Kabupaten",
+        "name": "Majene",
+        "code": "05",
+        "full_code": "7605",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 378,
+        "provinsi_id": 32,
+        "type": "Kota",
+        "name": "Makassar",
+        "code": "71",
+        "full_code": "7371",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 379,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Malaka",
+        "code": "21",
+        "full_code": "5321",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 380,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Malang",
+        "code": "07",
+        "full_code": "3507",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 381,
+        "provinsi_id": 11,
+        "type": "Kota",
+        "name": "Malang",
+        "code": "73",
+        "full_code": "3573",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 382,
+        "provinsi_id": 16,
+        "type": "Kabupaten",
+        "name": "Malinau",
+        "code": "02",
+        "full_code": "6502",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 383,
+        "provinsi_id": 20,
+        "type": "Kabupaten",
+        "name": "Maluku Barat Daya",
+        "code": "08",
+        "full_code": "8108",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 384,
+        "provinsi_id": 20,
+        "type": "Kabupaten",
+        "name": "Maluku Tengah",
+        "code": "01",
+        "full_code": "8101",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 385,
+        "provinsi_id": 20,
+        "type": "Kabupaten",
+        "name": "Maluku Tenggara",
+        "code": "02",
+        "full_code": "8102",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 386,
+        "provinsi_id": 31,
+        "type": "Kabupaten",
+        "name": "Mamasa",
+        "code": "03",
+        "full_code": "7603",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 387,
+        "provinsi_id": 24,
+        "type": "Kabupaten",
+        "name": "Mamberamo Raya",
+        "code": "20",
+        "full_code": "9120",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 388,
+        "provinsi_id": 27,
+        "type": "Kabupaten",
+        "name": "Mamberamo Tengah",
+        "code": "05",
+        "full_code": "9505",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 389,
+        "provinsi_id": 31,
+        "type": "Kabupaten",
+        "name": "Mamuju",
+        "code": "02",
+        "full_code": "7602",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 390,
+        "provinsi_id": 31,
+        "type": "Kabupaten",
+        "name": "Mamuju Tengah",
+        "code": "06",
+        "full_code": "7606",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 391,
+        "provinsi_id": 35,
+        "type": "Kota",
+        "name": "Manado",
+        "code": "71",
+        "full_code": "7171",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 392,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Mandailing Natal",
+        "code": "13",
+        "full_code": "1213",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 393,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Manggarai",
+        "code": "10",
+        "full_code": "5310",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 394,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Manggarai Barat",
+        "code": "15",
+        "full_code": "5315",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 395,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Manggarai Timur",
+        "code": "19",
+        "full_code": "5319",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 396,
+        "provinsi_id": 25,
+        "type": "Kabupaten",
+        "name": "Manokwari",
+        "code": "02",
+        "full_code": "9202",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 397,
+        "provinsi_id": 25,
+        "type": "Kabupaten",
+        "name": "Manokwari Selatan",
+        "code": "11",
+        "full_code": "9211",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 398,
+        "provinsi_id": 28,
+        "type": "Kabupaten",
+        "name": "Mappi",
+        "code": "03",
+        "full_code": "9303",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 399,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Maros",
+        "code": "09",
+        "full_code": "7309",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 400,
+        "provinsi_id": 22,
+        "type": "Kota",
+        "name": "Mataram",
+        "code": "71",
+        "full_code": "5271",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 401,
+        "provinsi_id": 26,
+        "type": "Kabupaten",
+        "name": "Maybrat",
+        "code": "10",
+        "full_code": "9210",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 402,
+        "provinsi_id": 38,
+        "type": "Kota",
+        "name": "Medan",
+        "code": "71",
+        "full_code": "1271",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 403,
+        "provinsi_id": 12,
+        "type": "Kabupaten",
+        "name": "Melawi",
+        "code": "10",
+        "full_code": "6110",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 404,
+        "provinsi_id": 12,
+        "type": "Kabupaten",
+        "name": "Mempawah",
+        "code": "02",
+        "full_code": "6102",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 405,
+        "provinsi_id": 8,
+        "type": "Kabupaten",
+        "name": "Merangin",
+        "code": "02",
+        "full_code": "1502",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 406,
+        "provinsi_id": 28,
+        "type": "Kabupaten",
+        "name": "Merauke",
+        "code": "01",
+        "full_code": "9301",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 407,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Mesuji",
+        "code": "11",
+        "full_code": "1811",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 408,
+        "provinsi_id": 19,
+        "type": "Kota",
+        "name": "Metro",
+        "code": "72",
+        "full_code": "1872",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 409,
+        "provinsi_id": 29,
+        "type": "Kabupaten",
+        "name": "Mimika",
+        "code": "04",
+        "full_code": "9404",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 410,
+        "provinsi_id": 35,
+        "type": "Kabupaten",
+        "name": "Minahasa",
+        "code": "02",
+        "full_code": "7102",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 411,
+        "provinsi_id": 35,
+        "type": "Kabupaten",
+        "name": "Minahasa Selatan",
+        "code": "05",
+        "full_code": "7105",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 412,
+        "provinsi_id": 35,
+        "type": "Kabupaten",
+        "name": "Minahasa Tenggara",
+        "code": "07",
+        "full_code": "7107",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 413,
+        "provinsi_id": 35,
+        "type": "Kabupaten",
+        "name": "Minahasa Utara",
+        "code": "06",
+        "full_code": "7106",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 414,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Mojokerto",
+        "code": "16",
+        "full_code": "3516",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 415,
+        "provinsi_id": 11,
+        "type": "Kota",
+        "name": "Mojokerto",
+        "code": "76",
+        "full_code": "3576",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 416,
+        "provinsi_id": 33,
+        "type": "Kabupaten",
+        "name": "Morowali",
+        "code": "06",
+        "full_code": "7206",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 417,
+        "provinsi_id": 33,
+        "type": "Kabupaten",
+        "name": "Morowali Utara",
+        "code": "12",
+        "full_code": "7212",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 418,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Muara Enim",
+        "code": "03",
+        "full_code": "1603",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 419,
+        "provinsi_id": 8,
+        "type": "Kabupaten",
+        "name": "Muaro Jambi",
+        "code": "05",
+        "full_code": "1505",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 420,
+        "provinsi_id": 4,
+        "type": "Kabupaten",
+        "name": "Muko Muko",
+        "code": "06",
+        "full_code": "1706",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 421,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Muna",
+        "code": "03",
+        "full_code": "7403",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 422,
+        "provinsi_id": 34,
+        "type": "Kabupaten",
+        "name": "Muna Barat",
+        "code": "13",
+        "full_code": "7413",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 423,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Murung Raya",
+        "code": "12",
+        "full_code": "6212",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 424,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Musi Banyuasin",
+        "code": "06",
+        "full_code": "1606",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 425,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Musi Rawas",
+        "code": "05",
+        "full_code": "1605",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 426,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Musi Rawas Utara",
+        "code": "13",
+        "full_code": "1613",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 427,
+        "provinsi_id": 29,
+        "type": "Kabupaten",
+        "name": "Nabire",
+        "code": "01",
+        "full_code": "9401",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 428,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Nagan Raya",
+        "code": "15",
+        "full_code": "1115",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 429,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Nagekeo",
+        "code": "16",
+        "full_code": "5316",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 430,
+        "provinsi_id": 18,
+        "type": "Kabupaten",
+        "name": "Natuna",
+        "code": "03",
+        "full_code": "2103",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 431,
+        "provinsi_id": 27,
+        "type": "Kabupaten",
+        "name": "Nduga",
+        "code": "08",
+        "full_code": "9508",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 432,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Ngada",
+        "code": "09",
+        "full_code": "5309",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 433,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Nganjuk",
+        "code": "18",
+        "full_code": "3518",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 434,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Ngawi",
+        "code": "21",
+        "full_code": "3521",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 435,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Nias",
+        "code": "04",
+        "full_code": "1204",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 436,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Nias Barat",
+        "code": "25",
+        "full_code": "1225",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 437,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Nias Selatan",
+        "code": "14",
+        "full_code": "1214",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 438,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Nias Utara",
+        "code": "24",
+        "full_code": "1224",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 439,
+        "provinsi_id": 16,
+        "type": "Kabupaten",
+        "name": "Nunukan",
+        "code": "03",
+        "full_code": "6503",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 440,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Ogan Ilir",
+        "code": "10",
+        "full_code": "1610",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 441,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Ogan Komering Ilir",
+        "code": "02",
+        "full_code": "1602",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 442,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Ogan Komering Ulu",
+        "code": "01",
+        "full_code": "1601",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 443,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Ogan Komering Ulu Selatan",
+        "code": "09",
+        "full_code": "1609",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 444,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Ogan Komering Ulu Timur",
+        "code": "08",
+        "full_code": "1608",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 445,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Pacitan",
+        "code": "01",
+        "full_code": "3501",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 446,
+        "provinsi_id": 36,
+        "type": "Kota",
+        "name": "Padang",
+        "code": "71",
+        "full_code": "1371",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 447,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Padang Lawas",
+        "code": "21",
+        "full_code": "1221",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 448,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Padang Lawas Utara",
+        "code": "20",
+        "full_code": "1220",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 449,
+        "provinsi_id": 36,
+        "type": "Kota",
+        "name": "Padang Panjang",
+        "code": "74",
+        "full_code": "1374",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 450,
+        "provinsi_id": 36,
+        "type": "Kabupaten",
+        "name": "Padang Pariaman",
+        "code": "05",
+        "full_code": "1305",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 451,
+        "provinsi_id": 38,
+        "type": "Kota",
+        "name": "Padangsidimpuan",
+        "code": "77",
+        "full_code": "1277",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 452,
+        "provinsi_id": 37,
+        "type": "Kota",
+        "name": "Pagar Alam",
+        "code": "72",
+        "full_code": "1672",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 453,
+        "provinsi_id": 7,
+        "type": "Kabupaten",
+        "name": "Pahuwato",
+        "code": "04",
+        "full_code": "7504",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 454,
+        "provinsi_id": 38,
+        "type": "Kabupaten",
+        "name": "Pakpak Bharat",
+        "code": "15",
+        "full_code": "1215",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 455,
+        "provinsi_id": 14,
+        "type": "Kota",
+        "name": "Palangkaraya",
+        "code": "71",
+        "full_code": "6271",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 456,
+        "provinsi_id": 37,
+        "type": "Kota",
+        "name": "Palembang",
+        "code": "71",
+        "full_code": "1671",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 457,
+        "provinsi_id": 32,
+        "type": "Kota",
+        "name": "Palopo",
+        "code": "73",
+        "full_code": "7373",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 458,
+        "provinsi_id": 33,
+        "type": "Kota",
+        "name": "Palu",
+        "code": "71",
+        "full_code": "7271",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 459,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Pamekasan",
+        "code": "28",
+        "full_code": "3528",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 460,
+        "provinsi_id": 3,
+        "type": "Kabupaten",
+        "name": "Pandeglang",
+        "code": "01",
+        "full_code": "3601",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 461,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Pangandaran",
+        "code": "18",
+        "full_code": "3218",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 462,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Pangkajene Kepulauan",
+        "code": "10",
+        "full_code": "7310",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 463,
+        "provinsi_id": 17,
+        "type": "Kota",
+        "name": "Pangkal Pinang",
+        "code": "71",
+        "full_code": "1971",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 464,
+        "provinsi_id": 29,
+        "type": "Kabupaten",
+        "name": "Paniai",
+        "code": "03",
+        "full_code": "9403",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 465,
+        "provinsi_id": 32,
+        "type": "Kota",
+        "name": "Pare Pare",
+        "code": "72",
+        "full_code": "7372",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 466,
+        "provinsi_id": 36,
+        "type": "Kota",
+        "name": "Pariaman",
+        "code": "77",
+        "full_code": "1377",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 467,
+        "provinsi_id": 33,
+        "type": "Kabupaten",
+        "name": "Parigi Moutong",
+        "code": "08",
+        "full_code": "7208",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 468,
+        "provinsi_id": 36,
+        "type": "Kabupaten",
+        "name": "Pasaman",
+        "code": "08",
+        "full_code": "1308",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 469,
+        "provinsi_id": 36,
+        "type": "Kabupaten",
+        "name": "Pasaman Barat",
+        "code": "12",
+        "full_code": "1312",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 470,
+        "provinsi_id": 31,
+        "type": "Kabupaten",
+        "name": "Pasangkayu (Mamuju Utara)",
+        "code": "01",
+        "full_code": "7601",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 471,
+        "provinsi_id": 15,
+        "type": "Kabupaten",
+        "name": "Paser",
+        "code": "01",
+        "full_code": "6401",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 472,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Pasuruan",
+        "code": "14",
+        "full_code": "3514",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 473,
+        "provinsi_id": 11,
+        "type": "Kota",
+        "name": "Pasuruan",
+        "code": "75",
+        "full_code": "3575",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 474,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Pati",
+        "code": "18",
+        "full_code": "3318",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 475,
+        "provinsi_id": 36,
+        "type": "Kota",
+        "name": "Payakumbuh",
+        "code": "76",
+        "full_code": "1376",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 476,
+        "provinsi_id": 25,
+        "type": "Kabupaten",
+        "name": "Pegunungan Arfak",
+        "code": "12",
+        "full_code": "9212",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 477,
+        "provinsi_id": 27,
+        "type": "Kabupaten",
+        "name": "Pegunungan Bintang",
+        "code": "02",
+        "full_code": "9502",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 478,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Pekalongan",
+        "code": "26",
+        "full_code": "3326",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 479,
+        "provinsi_id": 10,
+        "type": "Kota",
+        "name": "Pekalongan",
+        "code": "75",
+        "full_code": "3375",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 480,
+        "provinsi_id": 30,
+        "type": "Kota",
+        "name": "Pekanbaru",
+        "code": "71",
+        "full_code": "1471",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 481,
+        "provinsi_id": 30,
+        "type": "Kabupaten",
+        "name": "Pelalawan",
+        "code": "05",
+        "full_code": "1405",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 482,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Pemalang",
+        "code": "27",
+        "full_code": "3327",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 483,
+        "provinsi_id": 38,
+        "type": "Kota",
+        "name": "Pematangsiantar",
+        "code": "72",
+        "full_code": "1272",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 484,
+        "provinsi_id": 15,
+        "type": "Kabupaten",
+        "name": "Penajam Paser Utara",
+        "code": "09",
+        "full_code": "6409",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 485,
+        "provinsi_id": 37,
+        "type": "Kabupaten",
+        "name": "Penukal Abab Lematang Ilir",
+        "code": "12",
+        "full_code": "1612",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 486,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Pesawaran",
+        "code": "09",
+        "full_code": "1809",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 487,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Pesisir Barat",
+        "code": "13",
+        "full_code": "1813",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 488,
+        "provinsi_id": 36,
+        "type": "Kabupaten",
+        "name": "Pesisir Selatan",
+        "code": "01",
+        "full_code": "1301",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 489,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Pidie",
+        "code": "07",
+        "full_code": "1107",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 490,
+        "provinsi_id": 1,
+        "type": "Kabupaten",
+        "name": "Pidie Jaya",
+        "code": "18",
+        "full_code": "1118",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 491,
+        "provinsi_id": 32,
+        "type": "Kabupaten",
+        "name": "Pinrang",
+        "code": "15",
+        "full_code": "7315",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 492,
+        "provinsi_id": 31,
+        "type": "Kabupaten",
+        "name": "Polewali Mandar",
+        "code": "04",
+        "full_code": "7604",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 493,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Ponorogo",
+        "code": "02",
+        "full_code": "3502",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 494,
+        "provinsi_id": 12,
+        "type": "Kota",
+        "name": "Pontianak",
+        "code": "71",
+        "full_code": "6171",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 495,
+        "provinsi_id": 33,
+        "type": "Kabupaten",
+        "name": "Poso",
+        "code": "02",
+        "full_code": "7202",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 496,
+        "provinsi_id": 37,
+        "type": "Kota",
+        "name": "Prabumulih",
+        "code": "74",
+        "full_code": "1674",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 497,
+        "provinsi_id": 19,
+        "type": "Kabupaten",
+        "name": "Pringsewu",
+        "code": "10",
+        "full_code": "1810",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 498,
+        "provinsi_id": 11,
+        "type": "Kabupaten",
+        "name": "Probolinggo",
+        "code": "13",
+        "full_code": "3513",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 499,
+        "provinsi_id": 11,
+        "type": "Kota",
+        "name": "Probolinggo",
+        "code": "74",
+        "full_code": "3574",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 500,
+        "provinsi_id": 14,
+        "type": "Kabupaten",
+        "name": "Pulang Pisau",
+        "code": "11",
+        "full_code": "6211",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 501,
+        "provinsi_id": 21,
+        "type": "Kabupaten",
+        "name": "Pulau Morotai",
+        "code": "07",
+        "full_code": "8207",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 502,
+        "provinsi_id": 21,
+        "type": "Kabupaten",
+        "name": "Pulau Taliabu",
+        "code": "08",
+        "full_code": "8208",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 503,
+        "provinsi_id": 29,
+        "type": "Kabupaten",
+        "name": "Puncak",
+        "code": "05",
+        "full_code": "9405",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 504,
+        "provinsi_id": 29,
+        "type": "Kabupaten",
+        "name": "Puncak Jaya",
+        "code": "02",
+        "full_code": "9402",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 505,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Purbalingga",
+        "code": "03",
+        "full_code": "3303",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 506,
+        "provinsi_id": 9,
+        "type": "Kabupaten",
+        "name": "Purwakarta",
+        "code": "14",
+        "full_code": "3214",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 507,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Purworejo",
+        "code": "06",
+        "full_code": "3306",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 508,
+        "provinsi_id": 26,
+        "type": "Kabupaten",
+        "name": "Raja Ampat",
+        "code": "05",
+        "full_code": "9205",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 509,
+        "provinsi_id": 4,
+        "type": "Kabupaten",
+        "name": "Rejang Lebong",
+        "code": "02",
+        "full_code": "1702",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 510,
+        "provinsi_id": 10,
+        "type": "Kabupaten",
+        "name": "Rembang",
+        "code": "17",
+        "full_code": "3317",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 511,
+        "provinsi_id": 30,
+        "type": "Kabupaten",
+        "name": "Rokan Hilir",
+        "code": "07",
+        "full_code": "1407",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 512,
+        "provinsi_id": 30,
+        "type": "Kabupaten",
+        "name": "Rokan Hulu",
+        "code": "06",
+        "full_code": "1406",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 513,
+        "provinsi_id": 23,
+        "type": "Kabupaten",
+        "name": "Rote Ndao",
+        "code": "14",
+        "full_code": "5314",
+        "created_at": null,
+        "updated_at": null
+    },
+    {
+        "id": 514,
+        "provinsi_id": 1,
+        "type": "Kota",
+        "name": "Sabang",
+        "code": "72",
+        "full_code": "1172",
+        "created_at": null,
+        "updated_at": null
+    }
+]

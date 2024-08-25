@@ -10,7 +10,6 @@
 @section('content')
 {{-- card content --}}
 <div class="card mt-2">
-    {{-- <h3 class="card-header p-3">Tambah Nasabah</h3> --}}
     <div class="card-body">
         <form action="{{ route('nasabah.store') }}" method="POST">
             @csrf
@@ -71,17 +70,12 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="alamat" class="col-sm-3 col-form-label">Alamat</label>
+                        <label for="nominal_setor" class="col-sm-3 col-form-label">Nominal Setor</label>
                         <div class="col-sm-9">
-                            <textarea class="form-control @error('alamat') is-invalid @enderror" name="alamat" id="alamat" rows="3">{{ old('alamat') }}</textarea>
-                            @error('alamat')
+                            <input type="number" name="nominal_setor" class="form-control @error('nominal_setor') is-invalid @enderror" id="nominal_setor" placeholder="Nominal Setor" value="{{ old('nominal_setor') }}">
+                            @error('nominal_setor')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-sm-9 offset-sm-3">
-                            <button type="submit" class="btn btn-primary">Simpan</button>
                         </div>
                     </div>
                 </div>
@@ -89,11 +83,12 @@
                     <div class="row mb-3">
                         <label for="provinsi" class="col-sm-3 col-form-label">Provinsi</label>
                         <div class="col-sm-9">
-                            <select class="form-control @error('provinsi') is-invalid @enderror" name="provinsi" id="provinsi">
+                            <select class="form-control select2 @error('provinsi') is-invalid @enderror" name="provinsi" id="provinsi">
                                 <option value="">Pilih Provinsi</option>
                                 <!-- Daftar provinsi -->
-                                <option value="Jawa Timur" {{ old('provinsi') == 'Jawa Timur' ? 'selected' : '' }}>Jawa Timur</option>
-                                <!-- Tambahkan provinsi lainnya -->
+                                @foreach ($provinsis as $itemProvinsi)
+                                    <option value="{{ $itemProvinsi->id }}" {{ old('provinsi') == $itemProvinsi->id ? 'selected' : '' }}>{{ $itemProvinsi->name }}</option>
+                                @endforeach
                             </select>
                             @error('provinsi')
                                 <div class="invalid-feedback">{{ $message }}</div>
@@ -103,12 +98,7 @@
                     <div class="row mb-3">
                         <label for="kota" class="col-sm-3 col-form-label">Kota/Kabupaten</label>
                         <div class="col-sm-9">
-                            <select class="form-control @error('kota') is-invalid @enderror" name="kota" id="kota">
-                                <option value="">Pilih Kota</option>
-                                <!-- Daftar kota -->
-                                <option value="Surabaya" {{ old('kota') == 'Surabaya' ? 'selected' : '' }}>Surabaya</option>
-                                <!-- Tambahkan kota lainnya -->
-                            </select>
+                            <select class="form-control select2 kota-select @error('kota') is-invalid @enderror" name="kota" id="kota" disabled><option value="">Pilih Kota/Kabupaten</option></select>
                             @error('kota')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
@@ -117,12 +107,7 @@
                     <div class="row mb-3">
                         <label for="kecamatan" class="col-sm-3 col-form-label">Kecamatan</label>
                         <div class="col-sm-9">
-                            <select class="form-control @error('kecamatan') is-invalid @enderror" name="kecamatan" id="kecamatan">
-                                <option value="">Pilih Kecamatan</option>
-                                <!-- Daftar kecamatan -->
-                                <option value="Kecamatan A" {{ old('kecamatan') == 'Kecamatan A' ? 'selected' : '' }}>Kecamatan A</option>
-                                <!-- Tambahkan kecamatan lainnya -->
-                            </select>
+                            <select class="form-control select2 kecamatan-select @error('kecamatan') is-invalid @enderror" name="kecamatan" id="kecamatan" disabled><option value="">Pilih Kecamatan</option></select>
                             @error('kecamatan')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
@@ -131,12 +116,7 @@
                     <div class="row mb-3">
                         <label for="kelurahan" class="col-sm-3 col-form-label">Kelurahan</label>
                         <div class="col-sm-9">
-                            <select class="form-control @error('kelurahan') is-invalid @enderror" name="kelurahan" id="kelurahan">
-                                <option value="">Pilih Kelurahan</option>
-                                <!-- Daftar kelurahan -->
-                                <option value="Kelurahan A" {{ old('kelurahan') == 'Kelurahan A' ? 'selected' : '' }}>Kelurahan A</option>
-                                <!-- Tambahkan kelurahan lainnya -->
-                            </select>
+                            <select class="form-control select2 kelurahan-select @error('kelurahan') is-invalid @enderror" name="kelurahan" id="kelurahan" disabled><option value="">Pilih Kelurahan</option></select>
                             @error('kelurahan')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
@@ -169,15 +149,10 @@
                             @enderror
                         </div>
                     </div>
-                    <div class="row mb-3">
-                        <label for="nominal_setor" class="col-sm-3 col-form-label">Nominal Setor</label>
-                        <div class="col-sm-9">
-                            <input type="number" name="nominal_setor" class="form-control @error('nominal_setor') is-invalid @enderror" id="nominal_setor" placeholder="Nominal Setor" value="{{ old('nominal_setor') }}">
-                            @error('nominal_setor')
-                                <div class="invalid-feedback">{{ $message }}</div>
-                            @enderror
-                        </div>
-                    </div>
+                </div>
+                {{-- simpan at right --}}
+                <div class="col-md-12 text-right">
+                    <button type="submit" class="btn btn-primary">Simpan</button>
                 </div>
             </div>
         </form>
@@ -190,10 +165,87 @@
 
 @push('css')
     {{-- Add here extra stylesheets --}}
-    {{-- <link rel="stylesheet" href="/css/admin_custom.css"> --}}
+    <!-- Select2 -->
+    <link rel="stylesheet" href="/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="/vendor/select2-bootstrap4-theme/select2-bootstrap4.min.css">
 @endpush
 
 {{-- Push extra scripts --}}
 
 @push('js')
+    <script src="/vendor/select2/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.select2').select2({
+                theme: 'bootstrap4'
+            });
+
+            @if(session('error'))
+                toastr.error("{{ session('error') }}");
+            @endif
+
+            // Get Data Kota/Kabupaten
+            $('#provinsi').on('change', function() {
+                let provinsiId = $(this).val();
+                if (provinsiId) {
+                    $.ajax({
+                        url: '{{ route('wilayah.get-kabupaten') }}',
+                        type: 'GET',
+                        data: { provinsi: provinsiId },
+                        success: function(data) {
+                            $('#kota').prop('disabled', false);
+                            $('#kota').empty().append('<option value="">Pilih Kota/Kabupaten</option>');
+                            $.each(data, function(key, value) {
+                                $('#kota').append('<option value="' + value.id + '">' + value.type + ' '  + value.name + '</option>');
+                            });
+                        }
+                    });
+                } else {
+                    $('#kota').empty().append('<option value="">Pilih Kota/Kabupaten</option>');
+                }
+            });
+
+            // Get Data Kecamatan
+            $('#kota').on('change', function() {
+                let kabupatenId = $(this).val();
+                if (kabupatenId) {
+                    $.ajax({
+                        url: '{{ route('wilayah.get-kecamatan') }}',
+                        type: 'GET',
+                        data: { kabupaten: kabupatenId },
+                        success: function(data) {
+                            $('#kecamatan').prop('disabled', false);
+                            $('#kecamatan').empty().append('<option value="">Pilih Kecamatan</option>');
+                            $.each(data, function(key, value) {
+                                $('#kecamatan').append('<option value="' + value.id + '">' + value.name + '</option>');
+                            });
+                        }
+                    });
+                } else {
+                    $('#kecamatan').empty().append('<option value="">Pilih Kecamatan</option>');
+                }
+            });
+
+            // Get Data Kelurahan
+            $('#kecamatan').on('change', function() {
+                let kecamatanId = $(this).val();
+                if (kecamatanId) {
+                    $.ajax({
+                        url: '{{ route('wilayah.get-kelurahan') }}',
+                        type: 'GET',
+                        data: { kecamatan: kecamatanId },
+                        success: function(data) {
+                            $('#kelurahan').prop('disabled', false);
+                            $('#kelurahan').empty().append('<option value="">Pilih Kelurahan</option>');
+                            $.each(data, function(key, value) {
+                                $('#kelurahan').append('<option value="' + value.id + '">' + value.name + '</option>');
+                            });
+                        }
+                    });
+                } else {
+                    $('#kelurahan').empty().append('<option value="">Pilih Kelurahan</option>');
+                }
+            });
+        });
+    </script>
 @endpush

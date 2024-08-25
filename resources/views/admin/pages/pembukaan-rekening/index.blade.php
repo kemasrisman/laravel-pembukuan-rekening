@@ -3,7 +3,7 @@
 {{-- Content body: main page content --}}
 
 @section('content')
-<div class="card mt-5">
+<div class="card mt-4">
     <h3 class="card-header p-3">Tabel Approval Nasabah</h3>
     <div class="card-body">
         <table class="table table-bordered data-table">
@@ -61,6 +61,7 @@
 @push('css')
     {{-- Add here extra stylesheets --}}
     {{-- <link rel="stylesheet" href="/css/admin_custom.css"> --}}
+    <link href="/vendor/toastr/toastr.css" rel="stylesheet"/>
 @endpush
 
 {{-- Push extra scripts --}}
@@ -70,8 +71,17 @@
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.11.4/js/dataTables.bootstrap5.min.js"></script>
+<script src="/vendor/toastr/toastr.min.js"></script>
 <script type="text/javascript">
     $(function () {
+
+    @if (session('success'))
+        toastr.success("{{ session('success') }}");
+    @endif
+
+    @if (session('error'))
+        toastr.error("{{ session('error') }}");
+    @endif
 
     // Datatables
       var table = $('.data-table').DataTable({
@@ -79,14 +89,15 @@
           serverSide: true,
           ajax: "{{ route('nasabah.list') }}",
           columns: [
-              {data: 'id', name: 'id'},
+              {data: 'DT_RowIndex', name: 'DT_RowIndex'},
               {data: 'nama', name: 'nama'},
               {data: 'tempat_lahir', name: 'tempat_lahir'},
               {data: 'status', name: 'status'},
               @can('nasabah.approve')
               {data: 'action', name: 'action', orderable: false, searchable: false},
               @endcan
-          ]
+          ],
+          order: [[0, 'asc']]
       });
 
         // Approve Nasabah

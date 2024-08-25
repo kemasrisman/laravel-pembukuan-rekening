@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use App\Http\Requests\CreateNasabahRequest;
 use App\Models\Nasabah;
 use App\Models\Pekerjaan;
+use App\Models\Provinsi;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Yajra\DataTables\Facades\DataTables;
 
 class NasabahController extends Controller
@@ -14,15 +16,23 @@ class NasabahController extends Controller
     {
         if ($request->ajax()) {
             // nasabah yang id kc nya sama dengan id user
-            $data = Nasabah::where('id_kc', auth()->user()->id_kc)->get();
+            $data = Nasabah::where('id_kc', auth()->user()->id_kc)
+                            ->orderBy('created_at', 'desc')
+                            ->get();
 
             return DataTables::of($data)
                     ->addIndexColumn()
                     ->addColumn('action', function($row){
                         if (auth()->user()->can('nasabah.approve')) {
-                            return '<button type="button" class="btn btn-success approve" data-toggle="modal" data-id-nasabah="'. $row->id .'" data-target="#staticBackdrop">
-                                        Approve
-                                    </button>';
+                            if($row->status == 'Disetujui') {
+                                return '<button type="button" class="btn btn-success" disabled>
+                                            Approved
+                                        </button>';
+                            } else {
+                                return '<button type="button" class="btn btn-success approve" data-toggle="modal" data-id-nasabah="'. $row->id .'" data-target="#staticBackdrop">
+                                            Approve
+                                        </button>';
+                            }
                         }
                     })
                     ->rawColumns(['action'])
@@ -35,12 +45,19 @@ class NasabahController extends Controller
     public function create()
     {
         $pekerjaan = Pekerjaan::all();
-        return view('admin.pages.pembukaan-rekening.create', compact('pekerjaan'));
+        $provinsis = Provinsi::all();
+
+        return view('admin.pages.pembukaan-rekening.create', compact('pekerjaan', 'provinsis'));
     }
 
     public function store(CreateNasabahRequest $request)
     {
-        // dd($request->all());
+        $existing = Nasabah::whereRaw('LOWER(nama) = ?', [strtolower($request->input('nama'))])->first();
+
+        if ($existing) {
+            return back()->withErrors(['nama' => 'The name has already been taken.']);
+        }
+
         $nasabah = Nasabah::create([
             'nama' => $request->nama,
             // 'alamat' => $request->alamat,
@@ -60,7 +77,12 @@ class NasabahController extends Controller
             'approved_by' => null,
         ]);
 
-        return redirect()->route('nasabah.list')->with('success', 'Nasabah berhasil ditambahkan');
+        if ($nasabah) {
+            return redirect()->route('nasabah.list')->with('success', 'Nasabah berhasil ditambahkan');
+        } else {
+            Log::error('Nasabah gagal ditambahkan');
+            return back()->with('error', 'Nasabah gagal ditambahkan');
+        }
     }
 
     public function approve(Request $request)
@@ -70,7 +92,12 @@ class NasabahController extends Controller
             'status' => 'Disetujui',
             'approved_by' => auth()->id(),
         ]);
-
-        return redirect()->back()->with('success', 'Nasabah berhasil disetujui');
+        
+        if(!$nasabah) {
+            Log::error('Nasabah gagal disetujui');
+            return back()->with('error', 'Nasabah gagal disetujui');
+        } else {
+            return back()->with('success', 'Nasabah berhasil disetujui');
+        }
     }
 }
