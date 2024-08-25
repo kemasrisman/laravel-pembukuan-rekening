@@ -154,7 +154,7 @@ return [
 
     'layout_topnav' => null,
     'layout_boxed' => null,
-    'layout_fixed_sidebar' => null,
+    'layout_fixed_sidebar' => true,
     'layout_fixed_navbar' => null,
     'layout_fixed_footer' => null,
     'layout_dark_mode' => null,
@@ -298,7 +298,7 @@ return [
         [
             'type' => 'navbar-search',
             'text' => 'search',
-            'topnav_right' => true,
+            'topnav_right' => false,
         ],
         [
             'type' => 'fullscreen-widget',
@@ -327,13 +327,13 @@ return [
             'text' => 'Pembukaan Rekening',
             'url' => 'pembukaan-rekening',
             'icon' => 'fas fa-fw fa-user',
-            'can' => 'setujui nasabah'
+            'can' => 'nasabah.create',
         ],
         [
             'text' => 'Approval Pembukaan',
             'url' => 'approval',
             'icon' => 'fas fa-fw fa-lock',
-            'can' => 'setujui nasabah',
+            'can' => ['nasabah.approve', 'nasabah.create'],
         ],
         // [
         //     'text' => 'multilevel',
