@@ -5,8 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\CreateNasabahRequest;
 use App\Models\Nasabah;
 use App\Models\Pekerjaan;
-use App\Models\User;
-use Illuminate\Container\Attributes\Auth;
 use Illuminate\Http\Request;
 use Yajra\DataTables\Facades\DataTables;
 
@@ -21,10 +19,11 @@ class NasabahController extends Controller
             return DataTables::of($data)
                     ->addIndexColumn()
                     ->addColumn('action', function($row){
-       
-                            $btn = '<a href="javascript:void(0)" class="edit btn btn-primary btn-sm">View</a>';
-      
-                            return $btn;
+                        if (auth()->user()->can('nasabah.approve')) {
+                            return '<button type="button" class="btn btn-success approve" data-toggle="modal" data-id-nasabah="'. $row->id .'" data-target="#staticBackdrop">
+                                        Approve
+                                    </button>';
+                        }
                     })
                     ->rawColumns(['action'])
                     ->make(true);
@@ -62,5 +61,16 @@ class NasabahController extends Controller
         ]);
 
         return redirect()->route('nasabah.list')->with('success', 'Nasabah berhasil ditambahkan');
+    }
+
+    public function approve(Request $request)
+    {
+        $nasabah = Nasabah::findOrFail($request->id_nasabah);
+        $nasabah->update([
+            'status' => 'Disetujui',
+            'approved_by' => auth()->id(),
+        ]);
+
+        return redirect()->back()->with('success', 'Nasabah berhasil disetujui');
     }
 }

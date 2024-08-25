@@ -23,6 +23,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/approval', [NasabahController::class, 'index'])->name('nasabah.list');
     Route::get('/pembukaan-rekening', [NasabahController::class, 'create'])->name('nasabah.create');
     Route::post('/pembukaan-rekening', [NasabahController::class, 'store'])->name('nasabah.store');
+    Route::post('/approval', [NasabahController::class, 'approve'])->name('nasabah.approve');
     
 });
 
