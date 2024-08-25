@@ -26,11 +26,11 @@ class NasabahController extends Controller
                     ->make(true);
         }
           
-        return view('admin.pages.nasabah.index');
+        return view('admin.pages.pembukaan-rekening.index');
     }
 
     public function create()
     {
-        return view('admin.pages.nasabah.create');
+        return view('admin.pages.pembukaan-rekening.create');
     }
 }
