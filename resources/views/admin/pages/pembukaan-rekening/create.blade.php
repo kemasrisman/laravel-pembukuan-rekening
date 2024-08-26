@@ -16,7 +16,7 @@
 {{-- card content --}}
 <div class="card mt-2">
     <div class="card-header">
-        <h2 class="card-title">Pembukaan Rekening Calon Nasabah</h2>
+        <h2 class="card-title">Pembukaan Rekening Calon Nasabah {{ auth()->user()->kantorCabang->nama }}</h2>
     </div>
     <div class="card-body">
         <form action="{{ route('nasabah.store') }}" method="POST">

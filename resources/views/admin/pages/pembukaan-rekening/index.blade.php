@@ -15,7 +15,7 @@
 
 <div class="card mt-4">
     <div class="card-header">
-        <h2 class="card-title">Daftar Approval Pembukaan Rekening</h2>
+        <h2 class="card-title">Daftar Approval Pembukaan Rekening {{ auth()->user()->kantorCabang->nama }}</h2>
     </div>
     <div class="card-body">
         <table class="table table-bordered data-table">
