@@ -1,15 +1,23 @@
 @extends('admin.layouts.master')
-@section('title', 'Nasabah')
+@section('title', 'Pembukaan Nasabah')
 {{-- Content body: main page content --}}
 
 {{-- header --}}
 @section('content_header')
-    <h1>Pembukaan Rekening</h1>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ route('beranda') }}">Beranda</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Pembukaan Rekening</li>
+    </ol>
+</nav>
 @stop
 
 @section('content')
 {{-- card content --}}
 <div class="card mt-2">
+    <div class="card-header">
+        <h2 class="card-title">Pembukaan Rekening Calon Nasabah {{ auth()->user()->kantorCabang->nama }}</h2>
+    </div>
     <div class="card-body">
         <form action="{{ route('nasabah.store') }}" method="POST">
             @csrf

@@ -2,9 +2,21 @@
 @section('title', 'Approval Pembukaan Rekening')
 {{-- Content body: main page content --}}
 
+@section('content_header')
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ route('beranda') }}">Beranda</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Approval Pembukaan Rekening</li>
+    </ol>
+</nav>
+@stop
+
 @section('content')
+
 <div class="card mt-4">
-    <h3 class="card-header p-3">Tabel Approval Nasabah</h3>
+    <div class="card-header">
+        <h2 class="card-title">Daftar Approval Pembukaan Rekening {{ auth()->user()->kantorCabang->nama }}</h2>
+    </div>
     <div class="card-body">
         <table class="table table-bordered data-table">
             <thead>

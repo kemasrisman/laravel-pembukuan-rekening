@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BerandaController;
 use App\Http\Controllers\NasabahController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WilayahController;
@@ -9,9 +10,7 @@ Route::get('/', function () {
     return redirect()->route('login');
 });
 
-Route::get('/beranda', function () {
-    return view('admin.pages.beranda');
-})->middleware(['auth', 'verified'])->name('beranda');
+Route::get('/beranda', [BerandaController::class, 'index'])->middleware(['auth', 'verified'])->name('beranda');
 
 
 
@@ -23,7 +22,7 @@ Route::middleware('auth')->group(function () {
     });
 
     // Nasabah
-    Route::name('pembukaan-rekening.')->prefix('nasabah')->group(function () {
+    Route::name('nasabah.')->prefix('pembukaan-rekening')->group(function () {
         Route::get('/approval', [NasabahController::class, 'list'])->name('list');
         Route::get('/', [NasabahController::class, 'create'])->name('create');
         Route::post('/', [NasabahController::class, 'store'])->name('store');

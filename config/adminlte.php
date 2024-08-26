@@ -64,7 +64,7 @@ return [
     */
 
     'logo' => 'BANK DKI',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo_img' => 'vendor/adminlte/dist/img/BankDKI.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
@@ -311,9 +311,10 @@ return [
             'text' => 'search',
         ],
         [
-            'text' => 'blog',
-            'url' => 'admin/blog',
-            'can' => 'asal nasabah',
+            'text' => 'Beranda',
+            'icon' => 'fas fa-fw fa-home',
+            'url' => 'beranda',
+            'can' => 'menu.beranda',
         ],
         // [
         //     'text' => 'pages',
@@ -325,15 +326,15 @@ return [
         ['header' => 'Rekening Nasabah'],
         [
             'text' => 'Pembukaan Rekening',
-            'url' => 'pembukaan-rekening',
-            'icon' => 'fas fa-fw fa-user',
-            'can' => 'nasabah.create',
+            'route' => 'nasabah.create',
+            'icon' => 'fas fa-fw fa-user-plus',
+            'can' => 'menu.pembukaan-rekening',
         ],
         [
             'text' => 'Approval Pembukaan',
-            'url' => 'approval',
-            'icon' => 'fas fa-fw fa-lock',
-            'can' => ['nasabah.approve', 'nasabah.create'],
+            'route' => 'nasabah.list',
+            'icon' => 'fas fa-fw fa-user-check',
+            'can' => ['menu.approval', 'nasabah.create'],
         ],
         // [
         //     'text' => 'multilevel',
